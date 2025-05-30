@@ -18,7 +18,7 @@ class PlaidAPI:
                 "client_name": "Home Assistant", 
                 "language": "en", 
                 "products": ["transactions"], 
-                "country_codes": ["US"], 
+                "country_codes": ["US, CA"], 
                 "user": {
                     "client_user_id": "home-assistant-user" 
                 }, 
