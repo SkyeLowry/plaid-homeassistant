@@ -79,7 +79,7 @@ class PlaidAccountSensor(CoordinatorEntity, Entity):
     @property
     def name(self):
         """Return the name of the sensor."""
-        name = f"Plaid {self._institution} {self._name}"
+        name = f"{self._institution} {self._name}"
         if self._mask:
             name += f" {self._mask}" 
         return name
